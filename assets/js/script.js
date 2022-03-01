@@ -4,13 +4,17 @@ var city = document.getElementById('searchCity');
 var searchButton = document.getElementById('search');
 searchButton.addEventListener('click',searchFunction);
 var Uv = document.getElementById('uv-index');
+var clearHistory = document.getElementById('clearHistory')
+clearHistory.addEventListener('click',function(){$('#searchHistory').empty()})
 var requestOptions = {
         method: 'GET',
         redirect: 'follow'
       };
+
 function searchFunction(){
     getWeather(city.value)
-    console.log(city.value)
+    
+    //console.log(city.value)
 }
 
 function getWeather(cityName){
@@ -22,8 +26,7 @@ function getWeather(cityName){
             res = result
            var date = moment().format("L")
             $('#weatherBigCard').empty();
-            
-            //getForcastByCoordinates(latitude, longitude)
+            $('#searchHistory').append(`<button class="btn btn-sm btn-info my-1" style="max-width: fit-content"; onclick="getWeather(${res.name})">${res.name}</button>`)
             $('#weatherBigCard').append(
                 `<div class="row">
             <div class="col-12">
