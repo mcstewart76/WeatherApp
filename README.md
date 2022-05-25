@@ -1,4 +1,4 @@
-#Weather App
+###Weather App
  
 ## Description
 A simple weather app using openweather api to fetch data to append to cards for whichever city you search for. 
