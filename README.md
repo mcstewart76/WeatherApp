@@ -19,9 +19,6 @@ To use, put in city you want to search and press search.
 ## Contributors
 There are no other contributors 
 
-### Questions?
-
-
 ## Github
 Check out my [GitHub](https://github.com/mcstewart76). 
 
@@ -29,4 +26,5 @@ Check out my [GitHub](https://github.com/mcstewart76).
 Contact me at <a href="MAILTO:mcstewart76@gmail.com">mcstewart76@gmail.com</a> if you have additional questions. 
 
 ## License
-!The license for this repo is covered under ISC. 
+The license for this repo is covered under ISC. 
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/90533949/170295419-12424840-18ea-4c3c-a586-5065bcc5f702.png">
