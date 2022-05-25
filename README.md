@@ -23,7 +23,7 @@ There are no other contributors
 
 
 ## Github
-[Check out my GitHub at](https://github.com/mcstewart76). 
+Check out my [GitHub](https://github.com/mcstewart76). 
 
 ## Email
 Contact me at <a href="MAILTO:mcstewart76@gmail.com">mcstewart76@gmail.com</a> if you have additional questions. 
